@@ -1,35 +1,47 @@
-<!DOCTYPE html >
-<html xmlns="http://www.w3.org/1999/xhtml">
-<h1 style="font-size:60px;">보드게임에 대해 알아보자 </h1> <br />  
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Boardgame</title>
-<style type="text/css">
-body {
-	color:#000000;
-	background-color:#5e5e5e;
-	margin:0;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-#container {
-	margin-left:auto;
-	margin-right:auto;
-	text-align:left;
-	}
-
-img {
-	border:none;
+li {
+  float: left;
 }
-p  {
+
+li a {
+  display: block;
   color: white;
-  font-family: courier;
-  font-size: 160%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
 </style>
+</head>
 <body>
-<p>장기 
-<div id="container">
-<img src="./image/janggi.png" alt="janggi" width="100" height="100" ></a> </p>
+
+<ul>
+  <li><a class="active" href="https://choiwb1.github.io/boardgame">Home</a></li>
+  <li><a href="#news">장기</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="./html/about.html">About</a></li>
+</ul>
+<div>
+  <img src="./image/bg.jpg" alt="boardg".>
 </div>
+
 </body>
 </html>
